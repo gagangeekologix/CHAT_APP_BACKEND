@@ -71,7 +71,7 @@ const Container = styled.div`
   display: grid;
   grid-template-rows: 10% 75% 15%;
   overflow: hidden;
-  background-color: #080420;
+  background-color: #06565c;
   .brand {
     display: flex;
     align-items: center;
@@ -94,13 +94,13 @@ const Container = styled.div`
     &::-webkit-scrollbar {
       width: 0.2rem;
       &-thumb {
-        background-color: #ffffff39;
+        background-color: #033e42;
         width: 0.1rem;
         border-radius: 1rem;
       }
     }
     .contact {
-      background-color: #ffffff34;
+      background-color: #033e42;
       min-height: 5rem;
       cursor: pointer;
       width: 90%;
@@ -122,12 +122,12 @@ const Container = styled.div`
       }
     }
     .selected {
-      background-color: #9a86f3;
+      background-color:#022124;
     }
   }
 
   .current-user {
-    background-color: #0d0d30;
+    background-color: #0e1f5c;
     display: flex;
     justify-content: center;
     align-items: center;
